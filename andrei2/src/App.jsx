@@ -5,13 +5,13 @@ import './App.css'
 import EscopoReduz from './componentes/EscopoReduz'
 import Escopo from './componentes/Escopo'
 import Contador from './componentes/contador'
+import Props from './componentes/Props'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  let valor = "adrei borboleta"
   return (
     <>
-      <Contador/>
+      <Props nome={valor} newname={"testeetdstts"}/>
     </>
   )
 }
